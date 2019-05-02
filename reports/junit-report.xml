@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name=";4---transfer-amount-between-own-accounts" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/javad/Desktop/Bankmaster-javad/features/clients.feature">
+            </property>
+        </properties>
+        <testcase name="Given That there is a bank application browser" classname=";4---transfer-amount-between-own-accounts" time="11.855518679">
+        </testcase>
+        <testcase name="When I log in with my credentials" classname=";4---transfer-amount-between-own-accounts" time="2.278700453">
+        </testcase>
+        <testcase name="Then I should be able to log in as a client successfully" classname=";4---transfer-amount-between-own-accounts" time="2.112563801">
+        </testcase>
+        <testcase name="Given I navigate to överföringar mina konton from the side menu" classname=";4---transfer-amount-between-own-accounts" time="0.114888281">
+        </testcase>
+        <testcase name="When I transfer an amount from my sender account to my other account" classname=";4---transfer-amount-between-own-accounts" time="12.330940397">
+        </testcase>
+        <testcase name="Then the receiver account shall receive the amount" classname=";4---transfer-amount-between-own-accounts" time="2.109919605">
+        </testcase>
+    </testsuite>
+    <testsuite name=";6---click-show-more-button-to-see-all-transactions" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/javad/Desktop/Bankmaster-javad/features/clients.feature">
+            </property>
+        </properties>
+        <testcase name="Given That there is a bank application browser" classname=";6---click-show-more-button-to-see-all-transactions" time="5.035582872">
+        </testcase>
+        <testcase name="When I log in with my credentials" classname=";6---click-show-more-button-to-see-all-transactions" time="2.219908045">
+        </testcase>
+        <testcase name="Then I should be able to log in as a client successfully" classname=";6---click-show-more-button-to-see-all-transactions" time="2.113753917">
+        </testcase>
+        <testcase name="Given I am logged in and navigate to Mina konton" classname=";6---click-show-more-button-to-see-all-transactions" time="0.023923491">
+        </testcase>
+        <testcase name="When I make 11 transactions from Lönekonto to Savings" classname=";6---click-show-more-button-to-see-all-transactions" time="3.884452375">
+        </testcase>
+        <testcase name="And I click on Visa mer button" classname=";6---click-show-more-button-to-see-all-transactions" time="4.143668378">
+        </testcase>
+        <testcase name="Then I will see all transactions for this account" classname=";6---click-show-more-button-to-see-all-transactions" time="2.14895222">
+        </testcase>
+    </testsuite>
+    <testsuite name=";7.3---name-change-of-account" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/javad/Desktop/Bankmaster-javad/features/clients.feature">
+            </property>
+        </properties>
+        <testcase name="Given That there is a bank application browser" classname=";7.3---name-change-of-account" time="4.842047955">
+        </testcase>
+        <testcase name="When I log in with my credentials" classname=";7.3---name-change-of-account" time="2.281714427">
+        </testcase>
+        <testcase name="Then I should be able to log in as a client successfully" classname=";7.3---name-change-of-account" time="2.117970523">
+        </testcase>
+        <testcase name="Given I am logged in" classname=";7.3---name-change-of-account" time="0.000090454">
+        </testcase>
+        <testcase name="When I want to change account name" classname=";7.3---name-change-of-account" time="6.129285726">
+        </testcase>
+        <testcase name="Then the account name shall change successfully" classname=";7.3---name-change-of-account" time="2.122290666">
+        </testcase>
+    </testsuite>
+    <testsuite name=";5---see-account-history-for-each-account-showing-last-10-transactions" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/javad/Desktop/Bankmaster-javad/features/clients.feature">
+            </property>
+        </properties>
+        <testcase name="Given That there is a bank application browser" classname=";5---see-account-history-for-each-account-showing-last-10-transactions" time="5.125017351">
+        </testcase>
+        <testcase name="When I log in with my credentials" classname=";5---see-account-history-for-each-account-showing-last-10-transactions" time="2.283655477">
+        </testcase>
+        <testcase name="Then I should be able to log in as a client successfully" classname=";5---see-account-history-for-each-account-showing-last-10-transactions" time="2.105662609">
+        </testcase>
+        <testcase name="Given I navigate to mina konton" classname=";5---see-account-history-for-each-account-showing-last-10-transactions" time="2.049654343">
+        </testcase>
+        <testcase name="When I click on any of my accounts" classname=";5---see-account-history-for-each-account-showing-last-10-transactions" time="2.013776786">
+        </testcase>
+        <testcase name="Then I am shown my last 10 transactions for that particular account" classname=";5---see-account-history-for-each-account-showing-last-10-transactions" time="0.012080928">
+        </testcase>
+    </testsuite>
+</testsuites>

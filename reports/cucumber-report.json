@@ -1,0 +1,426 @@
+[
+  {
+    "description": "When working with the bank application everything should be working to specifications",
+    "elements": [
+      {
+        "id": ";4---transfer-amount-between-own-accounts",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "4 - transfer amount between own accounts",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That there is a bank application browser",
+            "result": {
+              "status": "passed",
+              "duration": 11855518679
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I log in with my credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2278700453
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to log in as a client successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2112563801
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to överföringar mina konton from the side menu",
+            "result": {
+              "status": "passed",
+              "duration": 114888281
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I transfer an amount from my sender account to my other account",
+            "result": {
+              "status": "passed",
+              "duration": 12330940397
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the receiver account shall receive the amount",
+            "result": {
+              "status": "passed",
+              "duration": 2109919605
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 155384080
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";6---click-show-more-button-to-see-all-transactions",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "6 - click show more button to see all transactions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That there is a bank application browser",
+            "result": {
+              "status": "passed",
+              "duration": 5035582872
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I log in with my credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2219908045
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to log in as a client successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2113753917
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged in and navigate to Mina konton",
+            "result": {
+              "status": "passed",
+              "duration": 23923491
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I make 11 transactions from Lönekonto to Savings",
+            "result": {
+              "status": "passed",
+              "duration": 3884452375
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on Visa mer button",
+            "result": {
+              "status": "passed",
+              "duration": 4143668378
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:174"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I will see all transactions for this account",
+            "result": {
+              "status": "passed",
+              "duration": 2148952220
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:188"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 154591617
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";7.3---name-change-of-account",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "7.3 - name change of account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That there is a bank application browser",
+            "result": {
+              "status": "passed",
+              "duration": 4842047955
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I log in with my credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2281714427
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to log in as a client successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2117970523
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged in",
+            "result": {
+              "status": "passed",
+              "duration": 90454
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:216"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I want to change account name",
+            "result": {
+              "status": "passed",
+              "duration": 6129285726
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:222"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account name shall change successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2122290666
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:246"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 164453878
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";5---see-account-history-for-each-account-showing-last-10-transactions",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "5 - See account history for each account showing last 10 transactions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "That there is a bank application browser",
+            "result": {
+              "status": "passed",
+              "duration": 5125017351
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I log in with my credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2283655477
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to log in as a client successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2105662609
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to mina konton",
+            "result": {
+              "status": "passed",
+              "duration": 2049654343
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:257"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on any of my accounts",
+            "result": {
+              "status": "passed",
+              "duration": 2013776786
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:268"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am shown my last 10 transactions for that particular account",
+            "result": {
+              "status": "passed",
+              "duration": 12080928
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\step-definitions\\swedenbank.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 128558685
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\javad\\Desktop\\Bankmaster-javad\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/javad/Desktop/Bankmaster-javad/features/clients.feature"
+  }
+]
